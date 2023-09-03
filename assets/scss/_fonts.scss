@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-ExtraLight.woff2') format('woff2'),
+      url('../fonts/Mont-ExtraLight.woff') format('woff'),
+      url('../fonts/Mont-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-LightItalic.woff2') format('woff2'),
+      url('../fonts/Mont-LightItalic.woff') format('woff'),
+      url('../fonts/Mont-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-HeavyItalic.woff2') format('woff2'),
+      url('../fonts/Mont-HeavyItalic.woff') format('woff'),
+      url('../fonts/Mont-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Regular.woff2') format('woff2'),
+      url('../fonts/Mont-Regular.woff') format('woff'),
+      url('../fonts/Mont-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Heavy.woff2') format('woff2'),
+      url('../fonts/Mont-Heavy.woff') format('woff'),
+      url('../fonts/Mont-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-ExtraLightItalic.woff2') format('woff2'),
+      url('../fonts/Mont-ExtraLightItalic.woff') format('woff'),
+      url('../fonts/Mont-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont Hairline';
+  src: url('../fonts/Mont-HairlineItalic.woff2') format('woff2'),
+      url('../fonts/Mont-HairlineItalic.woff') format('woff'),
+      url('../fonts/Mont-HairlineItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont Hairline';
+  src: url('../fonts/Mont-Hairline.woff2') format('woff2'),
+      url('../fonts/Mont-Hairline.woff') format('woff'),
+      url('../fonts/Mont-Hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Light.woff2') format('woff2'),
+      url('../fonts/Mont-Light.woff') format('woff'),
+      url('../fonts/Mont-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Mont-BoldItalic.woff') format('woff'),
+      url('../fonts/Mont-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Black.woff2') format('woff2'),
+      url('../fonts/Mont-Black.woff') format('woff'),
+      url('../fonts/Mont-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont Regular';
+  src: url('../fonts/Mont-RegularItalic.woff2') format('woff2'),
+      url('../fonts/Mont-RegularItalic.woff') format('woff'),
+      url('../fonts/Mont-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-BlackItalic.woff2') format('woff2'),
+      url('../fonts/Mont-BlackItalic.woff') format('woff'),
+      url('../fonts/Mont-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-SemiBold.woff2') format('woff2'),
+      url('../fonts/Mont-SemiBold.woff') format('woff'),
+      url('../fonts/Mont-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Bold.woff2') format('woff2'),
+      url('../fonts/Mont-Bold.woff') format('woff'),
+      url('../fonts/Mont-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-SemiBoldItalic.woff2') format('woff2'),
+      url('../fonts/Mont-SemiBoldItalic.woff') format('woff'),
+      url('../fonts/Mont-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Thin.woff2') format('woff2'),
+      url('../fonts/Mont-Thin.woff') format('woff'),
+      url('../fonts/Mont-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-ThinItalic.woff2') format('woff2'),
+      url('../fonts/Mont-ThinItalic.woff') format('woff'),
+      url('../fonts/Mont-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont DEMO';
+  src: url('../fonts/Mont-DEMOHeavy.woff2') format('woff2'),
+      url('../fonts/Mont-DEMOHeavy.woff') format('woff'),
+      url('../fonts/Mont-DEMOHeavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont Book';
+  src: url('../fonts/Mont-BookItalic.woff2') format('woff2'),
+      url('../fonts/Mont-BookItalic.woff') format('woff'),
+      url('../fonts/Mont-BookItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont DEMO';
+  src: url('../fonts/Mont-DEMOExtraLight.woff2') format('woff2'),
+      url('../fonts/Mont-DEMOExtraLight.woff') format('woff'),
+      url('../fonts/Mont-DEMOExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mont Book';
+  src: url('../fonts/Mont-Book.woff2') format('woff2'),
+      url('../fonts/Mont-Book.woff') format('woff'),
+      url('../fonts/Mont-Book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+

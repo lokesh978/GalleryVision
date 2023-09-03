@@ -1,0 +1,131 @@
+.custom-btn {
+  text-decoration: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid $theme1;
+  border-radius: 8px;
+  text-transform: capitalize;
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  background-color: $btn-bg1;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $btn-bg1-hover;
+  }
+}
+
+.custom-btn3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.login-btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: $color-white;
+  font-size: 16px;
+  margin-inline: 40px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: $color-white;
+  border: 2px solid transparent;
+  line-height: 24px;
+  font-weight: 700;
+  &:hover {
+    border: 2px solid $theme1;
+    color: rgb(218 33 48);
+  }
+}
+
+.chat-btn {
+  bottom: 16px;
+  right: 16px;
+  z-index: 10;
+  & button {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(201, 32, 39);
+    border: 0;
+    outline: 0;
+    &:hover {
+      transition: transform 100ms ease-in-out 0s;
+      transform: scale(1.1);
+    }
+  }
+}
+
+@include media-breakpoint(basic) {
+}
+
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+}
+
+@include media-breakpoint-up(xxl) {
+}
+
+@include media-breakpoint-down(xxl) {
+}
+
+@include media-breakpoint-down(xl) {
+  .login-btn {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: $color-white;
+    font-size: 16px;
+    margin-inline: 20px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: $color-white;
+    border: 2px solid transparent;
+    line-height: 24px;
+    font-weight: 700;
+    &:hover {
+      border: 2px solid $theme1;
+      color: rgb(218 33 48);
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .login-btn {
+    margin: 0;
+    width: 100%;
+    border: 2px solid rgb(239, 30, 47);
+    margin-block: 20px;
+    &:hover {
+      color: rgb(218 33 48);
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+  .custom-btn3 {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+  }
+}

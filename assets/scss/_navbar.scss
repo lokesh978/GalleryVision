@@ -1,0 +1,217 @@
+.navbar {
+  padding-block: 12px;
+  padding-inline: 30px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  & .navbar-brand {
+    & img {
+      height: 38px;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    color: $color-white;
+
+    &:focus,
+    &:hover,
+    &.active {
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+    span {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+  }
+
+  & .navbar-offcanvas {
+    height: 100vh;
+    background: $color-black;
+  }
+  & .nav-close-btn {
+    border: none;
+    &:focus,
+    &:hover,
+    &.active {
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  & .navbar-nav {
+    & .nav-item {
+      & .nav-link {
+        color: $color-white;
+        font-size: 17px;
+        font-weight: 600;
+
+        &:hover {
+          color: $text-hover-color;
+          transition: all 0.1s;
+          transform: scale(1.08);
+        }
+      }
+    }
+
+    & .dropdown {
+      &:hover > .dropdown-menu {
+        // display: block;
+        // top: 55px;
+        background-color: $text-hover-color;
+        --bs-dropdown-link-hover-bg: none;
+      }
+
+      & .dropdown-menu {
+        border-radius: 0 0 6px 6px;
+        padding: 0;
+
+        & .dropdown-item {
+          color: $color-white;
+          padding: 10px 12px;
+          font-weight: 600;
+
+          &.active,
+          &:active {
+            background-color: transparent;
+            color: black;
+          }
+
+          &:hover {
+            color: $color-black;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint(basic) {
+}
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+}
+
+@include media-breakpoint-up(xxl) {
+}
+
+@include media-breakpoint-down(xxl) {
+}
+
+@include media-breakpoint-down(xl) {
+  .navbar {
+    padding-block: 12px;
+    padding-inline: 0;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    & .navbar-brand {
+      & img {
+        height: 38px;
+      }
+    }
+    .navbar-toggler {
+      border: none;
+      color: $color-white;
+  
+      &:focus,
+      &:hover,
+      &.active {
+        border: none;
+        outline: none;
+        box-shadow: none;
+      }
+      span {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+    }
+  
+    & .navbar-offcanvas {
+      height: 100vh;
+      background: $color-black;
+    }
+    & .nav-close-btn {
+      border: none;
+      &:focus,
+      &:hover,
+      &.active {
+        border: none;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  
+    & .navbar-nav {
+      & .nav-item {
+        & .nav-link {
+          color: $color-white;
+          font-size: 15px;
+          font-weight: 600;
+  
+          &:hover {
+            color: $text-hover-color;
+            transition: all 0.1s;
+            transform: scale(1.08);
+          }
+        }
+      }
+  
+      & .dropdown {
+        &:hover > .dropdown-menu {
+          // display: block;
+          // top: 55px;
+          background-color: $text-hover-color;
+          --bs-dropdown-link-hover-bg: none;
+        }
+  
+        & .dropdown-menu {
+          border-radius: 0;
+          padding: 0;
+  
+          & .dropdown-item {
+            color: $color-white;
+            padding: 10px 12px;
+            font-weight: 600;
+  
+            &.active,
+            &:active {
+              background-color: transparent;
+              color: black;
+            }
+  
+            &:hover {
+              color: $color-black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .navbar {
+    & .navbar-nav {
+      & .nav-item {
+        & .nav-link {
+          &:hover {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+}
